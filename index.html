@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My AngularJS App</title>
+    <title>KGC</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&;lang=en" rel="stylesheet">
@@ -14,7 +14,9 @@
 </head>
 <body ng-controller="KgcAppCtrl">
 <header class="app-bar" ng-class="{'open': NavDrawer.isOpen}">
-    <h1 class="logo">KGC</h1>
+    <h1 class="logo">
+        <a href="#/home" ng-click="NavDrawer.reset()">KGC</a>
+    </h1>
     <button class="menu" ng-click="NavDrawer.toggle()"><img src="assets/img/hamburger.png"></button>
 </header>
 <nav class="navdrawer-container" ng-class="{'open': NavDrawer.isOpen}">
