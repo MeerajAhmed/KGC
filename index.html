@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" ng-app="kgcApp">
 <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <!-- font here -->
-    <!-- todo: remove base.css -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" media="(max-width:600px)" href="css/max-600px.css">
-    <link rel="stylesheet" media="(min-width:601px)" href="css/min-601px.css">
-    <title>Bismillah</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&;lang=en" rel="stylesheet">
+    <link rel="stylesheet" href="common/css/normalize.css">
+    <link rel="stylesheet" href="common/css/main.css">
+    <link rel="stylesheet" href="app/css/base.css">
+    <link rel="stylesheet" href="app/css/app.css">
 </head>
-<body>
-    <header class="app-bar">
-        <!--<h1 class="logo">
-            <a href="#">Logo</a>
-        </h1>-->
-        <button class="menu">
-            <img class="menu-icon" src="img/hamburger.png">
-            <img class="close-icon" src="img/close-icon-light.png">
-        </button>
-    </header>
+<body ng-controller="KgcAppCtrl">
+<header class="app-bar" ng-class="{'open': NavDrawer.isOpen}">
+    <h1 class="logo">KGC</h1>
+    <button class="menu" ng-click="NavDrawer.toggle()"><img src="assets/img/hamburger.png"></button>
+</header>
+<nav class="navdrawer-container" ng-class="{'open': NavDrawer.isOpen}">
+    <ul>
+        <li><a href="#/about">About</a></li>
+        <li><a href="#/finance">Financial Spectrum</a></li>
+        <li><a href="#/service">Services</a></li>
+        <li><a href="#/project">Projects</a></li>
+        <li><a href="#/gallery">Gallery</a></li>
+        <li><a href="#/contact">Contacts</a></li>
+    </ul>
+</nav>
 
+<!-- <ul class="menu">
+   <li><a href="#/view1">view1</a></li>
+   <li><a href="#/view2">view2</a></li>
+ </ul>-->
+<div ng-view></div>
+
+<script src="common/angular/angular.js"></script>
+<script src="common/angular/angular-route.js"></script>
+<script src="app/app.js"></script>
+<script src="app/home/home.js"></script>
+<script src="app/about/about.js"></script>
+<script src="app/finance/finance.js"></script>
+<script src="app/service/service.js"></script>
+<script src="app/project/project.js"></script>
+<script src="app/gallery/gallery.js"></script>
+<script src="app/contact/contact.js"></script>
 </body>
 </html>
