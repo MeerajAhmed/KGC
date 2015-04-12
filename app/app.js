@@ -58,7 +58,7 @@ angular.module('kgcApp', [
 //      ==================================== [END] All methods inside controller =======================================
 
 //      ==================================== [START] All logic inside controller =======================================
-        $rootScope.$on("$routeChangeStart",function(event, next, current){
+        $rootScope.$on("$routeChangeSuccess",function(event, next, current){
             $scope.NavDrawer.reset();
         });
 //      ==================================== [END] All logic inside controller =========================================

@@ -21,6 +21,7 @@
 </header>
 <nav class="navdrawer-container" ng-class="{'open': NavDrawer.isOpen}">
     <ul>
+        <li><a href="#/home">Home</a></li>
         <li><a href="#/about">About</a></li>
         <li><a href="#/finance">Financial Spectrum</a></li>
         <li><a href="#/service">Services</a></li>
@@ -34,10 +35,16 @@
    <li><a href="#/view1">view1</a></li>
    <li><a href="#/view2">view2</a></li>
  </ul>-->
-<div ng-view></div>
+<section ng-view class="nav-placeholder"></section>
+
+<footer>
+   <!-- <a href="#">Contact us</a>
+    <a href="#">Share</a>-->
+</footer>
 
 <script src="common/angular/angular.js"></script>
 <script src="common/angular/angular-route.js"></script>
+<script src="common/angular/ui-bootstrap-tpls-0.12.1.js"></script>
 <script src="app/app.js"></script>
 <script src="app/home/home.js"></script>
 <script src="app/about/about.js"></script>

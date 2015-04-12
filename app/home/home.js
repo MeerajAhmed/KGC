@@ -13,7 +13,8 @@
  * specified, as shown below.
  */
 angular.module( 'kgcApp.home', [
-  'ngRoute'
+  'ngRoute',
+  'ui.bootstrap'
 ])
 
 /**
@@ -42,7 +43,22 @@ angular.module( 'kgcApp.home', [
 /**
  * And of course we define a controller for our route.
  */
-.controller( 'HomeCtrl', ['$scope', function( $scope ) {
+    .controller('HomeCtrl', ['$scope', function ($scope) {
+        $scope.myInterval = 5000;
+        $scope.slides = [
+            {
+                image: 'assets/img/200.jpeg'
+            },
+            {
+                image: 'assets/img/food.jpeg'
+            },
+            {
+                image: 'assets/img/people.jpeg'
+            },
+            {
+                image: 'assets/img/sports.jpeg'
+            }
+        ];
 
-}]);
+    }]);
 

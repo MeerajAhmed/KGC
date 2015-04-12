@@ -23,5 +23,4 @@ Every component contained here should be drag-and-drop reusable in any other
 project; they should depend on no other components that aren't similarly 
 drag-and-drop reusable.
 
-to run server : node common/webServer/web-server.js
 

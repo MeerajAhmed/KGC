@@ -1,1 +1,52 @@
+<!--
 <p class="nav-placeholder">partial page for HOME</p>
+<div id="slides_control">
+    <div>
+        <carousel interval="myInterval">
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}">
+
+                <div class="carousel-caption">
+                    <h4>Slide {{$index+1}}</h4>
+                </div>
+            </slide>
+        </carousel>
+    </div>
+</div>-->
+<main>
+      <section class="flex-container">
+          <section class="home-img">
+              <article class="description">
+                  <p>We fulfill all your equipment needs</p>
+              </article>
+          </section>
+          <section class="snippet-list">
+              <h2 class="welcome">Welcome <!--<a href="#" class="news__more">+ more</a>--></h2>
+              <ul>
+                  <li class="snippet">
+                      <h3 class="snippet-title"><a href="">We Work For You</a></h3>
+                      <div class="snippet-thumbnail">
+                          <img src="../assets/img/we_work.jpg" alt="we work for you">
+                      </div>
+                      <p class="snippet-description">
+                          Our Technicians and workers are sought after, for their technical skills, hard work and the ability to work under any difficult conditions. Bringing together the organizations that needs such workers for better production and the pool of good skilled workers has been successfully bridged by the services provided by Impressive Contracting. We do feel that there is ample scope for us to work for you to fulfill your needs in manpower. If necessary we can meet, discuss and finalize other terms and conditions to our mutual business interests.
+                      </p>
+                  </li>
+                  <li class="snippet">
+                      <h3 class="snippet-title"><a href="">Our Strategies</a></h3>
+                      <div class="snippet-thumbnail">
+                          <img src="../assets/img/our_strategies.jpg" alt="our strategies">
+                      </div>
+                      <p class="snippet-description">The Company aims to target the prime business of KSA related to Project Management, utilizing dedicated talents, sincere efforts and unified approaches. We believe in Customer Satisfaction and hence satisfying the Client needs, resulting in growing business along with desired profitability.</p>
+                  </li>
+                  <li class="snippet">
+                      <h3 class="snippet-title"><a href="">Clients Select Us</a></h3>
+                      <div class="snippet-thumbnail">
+                          <img src="../assets/img/clients_select.jpg" alt="Clients Select Us">
+                      </div>
+                      <p class="snippet-description">Evolving our organization and culture by attracting and retaining high quality people for the long term.</p>
+                  </li>
+              </ul>
+          </section>
+      </section>
+</main>
