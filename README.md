@@ -1,3 +1,4 @@
+# blueberry
 # The `src` Directory
 
 ## Overview
@@ -46,3 +47,4 @@ a Grunt template, so variables from `Gruntfile.js` and `package.json` can be
 referenced from within it. Changing `name` in `package.json` from
 "ng-boilerplate" will rename the resultant CSS and JavaScript placed in `build/`,
 so this HTML references them by variable for convenience.
+

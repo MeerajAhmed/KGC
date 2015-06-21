@@ -13,8 +13,7 @@
  * specified, as shown below.
  */
 angular.module( 'kgcApp.home', [
-  'ngRoute',
-  'ui.bootstrap'
+  'ngRoute'
 ])
 
 /**
@@ -59,6 +58,5 @@ angular.module( 'kgcApp.home', [
                 image: 'assets/img/sports.jpeg'
             }
         ];
-
     }]);
 

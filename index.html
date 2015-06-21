@@ -4,47 +4,48 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>KGC</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&;lang=en" rel="stylesheet">
+ <!--   <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&;lang=en" rel="stylesheet">-->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
     <link rel="stylesheet" href="common/css/normalize.css">
     <link rel="stylesheet" href="common/css/main.css">
     <link rel="stylesheet" href="app/css/base.css">
     <link rel="stylesheet" href="app/css/app.css">
+
 </head>
 <body ng-controller="KgcAppCtrl">
-<header class="app-bar" ng-class="{'open': NavDrawer.isOpen}">
-    <h1 class="logo">
-        <a href="#/home" ng-click="NavDrawer.reset()">KGC</a>
-    </h1>
-    <button class="menu" ng-click="NavDrawer.toggle()"><img src="assets/img/hamburger.png"></button>
+<header class="app-bar md-whiteframe-z2 flex-container">
+    <div class="menu-header" ng-click="NavDrawer.toggle()">
+        <i class="menu">menu</i>
+    </div>
 </header>
-<nav class="navdrawer-container" ng-class="{'open': NavDrawer.isOpen}">
-    <ul>
-        <li><a href="#/home">Home</a></li>
-        <li><a href="#/about">About</a></li>
-        <li><a href="#/finance">Financial Spectrum</a></li>
-        <li><a href="#/service">Services</a></li>
-        <li><a href="#/project">Projects</a></li>
-        <li><a href="#/gallery">Gallery</a></li>
-        <li><a href="#/contact">Contacts</a></li>
-    </ul>
+<nav>
+    <div ng-class="{'back-drop': NavDrawer.isOpen}" ng-click="NavDrawer.reset()"></div>
+    <div class="navdrawer-container md-whiteframe-z2" ng-class="{'open': NavDrawer.isOpen}">
+        <div class="navdrawer-header"></div>
+        <ul>
+            <li material><a href="#/home">Home</a></li>
+            <li material><a href="#/about">About</a></li>
+            <li material><a href="#/finance">Finance</a></li>
+            <li material><a href="#/service">Services</a></li>
+            <li material><a href="#/project">Projects</a></li>
+            <li material><a href="#/gallery">Gallery</a></li>
+            <li material><a href="#/contact">Contacts</a></li>
+        </ul>
+    </div>
 </nav>
 
-<!-- <ul class="menu">
-   <li><a href="#/view1">view1</a></li>
-   <li><a href="#/view2">view2</a></li>
- </ul>-->
-<section ng-view class="nav-placeholder"></section>
+<section ng-view></section>
 
 <footer>
    <!-- <a href="#">Contact us</a>
     <a href="#">Share</a>-->
 </footer>
 
+<!--<script src="common/jquery-2.1.4.js"></script>-->
 <script src="common/angular/angular.js"></script>
 <script src="common/angular/angular-route.js"></script>
-<script src="common/angular/ui-bootstrap-tpls-0.12.1.js"></script>
+<!--<script src="common/material/mdRipple.js"></script>-->
 <script src="app/app.js"></script>
 <script src="app/home/home.js"></script>
 <script src="app/about/about.js"></script>
@@ -53,5 +54,53 @@
 <script src="app/project/project.js"></script>
 <script src="app/gallery/gallery.js"></script>
 <script src="app/contact/contact.js"></script>
+<!--<script>
+    (function (window, $) {
+
+        $(function() {
+
+
+            $('.ripple').on('click', function (event) {
+                event.preventDefault();
+
+                var $div = $('<div/>'),
+                        btnOffset = $(this).offset(),
+                        xPos = event.pageX - btnOffset.left,
+                        yPos = event.pageY - btnOffset.top;
+
+
+
+                $div.addClass('ripple-effect');
+                var $ripple = $(".ripple-effect");
+
+                $ripple.css("height", $(this).height());
+                $ripple.css("width", $(this).height());
+                $div
+                        .css({
+                            top: yPos - ($ripple.height()/2),
+                            left: xPos - ($ripple.width()/2),
+                            background: $(this).data("ripple-color")
+                        })
+                        .appendTo($(this));
+/*
+                $div.css("height", $(this).height());
+                $div.css("width", $(this).height());*/
+                $div
+                        .css({
+                            top: yPos - ($div.height()/2),
+                            left: xPos - ($div.width()/2),
+                            background: $(this).data("ripple-color")
+                        })
+                        .appendTo($(this));
+
+                window.setTimeout(function(){
+                    $div.remove();
+                }, 2000);
+            });
+
+        });
+
+    })(window, jQuery);
+</script>-->
 </body>
 </html>

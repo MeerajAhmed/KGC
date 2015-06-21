@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6693ef-1c93-43c9-8932-da25f6971857" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/angular/ui-bootstrap-tpls-0.12.1.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/._hamburger.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/project/project.html" afterPath="$PROJECT_DIR$/app/project/project.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/README.md" afterPath="$PROJECT_DIR$/common/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/angular/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/angular/angular-aria.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/angular/angular-material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/angular/angular-material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/app_old.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/home/home.tpl_old.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index_old.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/gallery/gallery.tpl.html" afterPath="$PROJECT_DIR$/app/gallery/gallery.tpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.js" afterPath="$PROJECT_DIR$/app/home/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.tpl.html" afterPath="$PROJECT_DIR$/app/home/home.tpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -16,9 +17,9 @@
     </list>
     <ignored path="meerajahmed.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1428848855404" ignored="false" />
+    <file path="/Dummy.txt" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1433699043474" ignored="false" />
     <file path="/index.html" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1428864387952" ignored="false" />
-    <file path="/app.css" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1428867543063" ignored="false" />
+    <file path="/app.css" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1433622504234" ignored="false" />
     <file path="/home.tpl.html" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1428867088539" ignored="false" />
     <file path="/gallery.tpl.html" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1428859505224" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,28 +41,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/css/app.css">
+      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/home/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="394" column="53" selection-start="6652" selection-end="6652" vertical-scroll-proportion="0.80456024">
+            <state line="15" column="11" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="17" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-20.208334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.tpl.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.tpl.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/home/home.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="57" selection-start="2556" selection-end="2556" vertical-scroll-proportion="-22.083334">
+            <state line="12" column="10" selection-start="483" selection-end="483" vertical-scroll-proportion="0.30456853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="1" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,21 +87,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/project/project.js" />
-        <option value="$PROJECT_DIR$/app/home/home.js" />
         <option value="$PROJECT_DIR$/common/README.md" />
         <option value="$PROJECT_DIR$/app/gallery/gallery.tpl.html" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/home/home.js" />
         <option value="$PROJECT_DIR$/app/home/home.tpl.html" />
         <option value="$PROJECT_DIR$/app/css/app.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="525" />
-    <option name="y" value="30" />
-    <option name="width" value="785" />
-    <option name="height" value="773" />
+    <option name="x" value="59" />
+    <option name="y" value="90" />
+    <option name="width" value="1251" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -143,38 +144,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="meerajahmed.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meerajahmed.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meerajahmed.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meerajahmed.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="meerajahmed.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,12 +207,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/common/angular" />
+      <recent name="$PROJECT_DIR$/app/home" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/css" />
+      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/common/angular" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -257,7 +230,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -291,13 +264,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="525" y="30" width="785" height="773" extended-state="0" />
+    <frame x="59" y="90" width="1251" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35958004" sideWeight="0.99542683" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25895765" sideWeight="0.99542683" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -373,104 +346,138 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/webServer/web-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/project/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="67" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/gallery/gallery.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="30" selection-start="1611" selection-end="1626" vertical-scroll-proportion="0.0" />
+        <state line="48" column="28" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/app.css">
+    <entry file="file://$PROJECT_DIR$/app/css/app_old.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="60" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0">
+        <state line="63" column="8" selection-start="1221" selection-end="1225" vertical-scroll-proportion="-9.846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="52" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/angular/ui-bootstrap-tpls-0.12.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="24" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/webServer/web-server.js">
+    <entry file="file://$PROJECT_DIR$/index_old.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/README.md">
+    <entry file="file://$PROJECT_DIR$/app/home/home.tpl_old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/angular/angular-aria.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/project/project.js">
+    <entry file="file://$PROJECT_DIR$/common/angular/angular-material.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="67" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+        <state line="27" column="53" selection-start="1492" selection-end="1510" vertical-scroll-proportion="0.33215547">
+          <folding>
+            <marker date="1433701401000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1433701401000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/angular/angular-material.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-34.26829">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/gallery/gallery.tpl.html">
+    <entry file="file://$PROJECT_DIR$/common/angular/angular-animate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="28" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="17" selection-start="1583" selection-end="1583" vertical-scroll-proportion="-20.208334">
+        <state line="18" column="5" selection-start="744" selection-end="744" vertical-scroll-proportion="0.44701988">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/home.tpl.html">
+    <entry file="file://$PROJECT_DIR$/app/home/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="57" selection-start="2556" selection-end="2556" vertical-scroll-proportion="-22.083334">
+        <state line="15" column="11" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="394" column="53" selection-start="6652" selection-end="6652" vertical-scroll-proportion="0.80456024">
+        <state line="121" column="1" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/home.tpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="10" selection-start="483" selection-end="483" vertical-scroll-proportion="0.30456853">
           <folding />
         </state>
       </provider>
