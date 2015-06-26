@@ -6,46 +6,61 @@
     <title>KGC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
  <!--   <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&;lang=en" rel="stylesheet">-->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
-    <link rel="stylesheet" href="common/css/normalize.css">
+<!--    <link rel="stylesheet" href="common/css/normalize.css">
     <link rel="stylesheet" href="common/css/main.css">
-    <link rel="stylesheet" href="app/css/base.css">
+    <link rel="stylesheet" href="app/css/base.css">-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400">
+    <link rel="stylesheet" href="common/angular/angular-material.css">
     <link rel="stylesheet" href="app/css/app.css">
 
 </head>
-<body ng-controller="KgcAppCtrl">
-<header class="app-bar md-whiteframe-z2 flex-container">
-    <div class="menu-header" ng-click="NavDrawer.toggle()">
-        <i class="menu">menu</i>
+<body ng-controller="KgcAppCtrl" layout="row">
+<section  ></section>
+<md-sidenav md-component-id="left-nav" class="md-sidenav-left md-whiteframe-z2" md-is-locked-open="$mdMedia('gt-sm')">
+    <md-toolbar layout="row" layout-align="start center" class="md-whiteframe-z1">
+       <h1 class="md-title">Menu</h1>
+    </md-toolbar>
+    <md-list class="menu-list">
+        <md-list-item ng-repeat="menu in MenuList">
+            <div class="menu-text" ng-class="{ active : ($index == menuIndex)}">{{::menu.name}}</div>
+            <md-checkbox aria-label="{{::menu.name}}"  ng-click="navigateTo(menu.link,$index);" class="hide"></md-checkbox>
+        </md-list-item>
+        <!--<md-list-item ng-click="navigateTo(menu.link,$index)" ng-repeat="menu in MenuList">
+            <md-icon md-svg-icon="assets/svg/ic_home_black_24px.svg"></md-icon>
+            <p> {{::menu.name }} </p>
+        </md-list-item>-->
+    </md-list>
+</md-sidenav>
+<div layout="column" layout-fill>
+    <md-content>
+    <md-toolbar class="md-whiteframe-z4" >
+        <div class="md-toolbar-tools">
+            <md-button class="md-icon-button" ng-click="NavDrawer.open()" aria-label="menu">
+                <md-icon md-svg-icon="../assets/svg/ic_menu_white_24px.svg"></md-icon>
+            </md-button>
+            <div class="md-title">Title</div>
+            <span flex></span>
+            <!--<img ng-src="assets/img/logo.png"  alt="logo">-->
+        </div>
+    </md-toolbar>
+    <section ng-view></section>
+        <footer class="md-whiteframe-z1">
+            <!--<h2 class="md-subhead">Get in touch</h2>-->
+            <md-toolbar >
+                <div class="md-toolbar-tools">
+                    <md-icon md-svg-src="assets/svg/ic_phone_iphone_white_48px.svg" aria-label="phone">call us</md-icon>
+                    <md-icon md-svg-src="assets/svg/ic_email_white_48px.svg" aria-label="email">mail us</md-icon>
+                    <md-icon md-svg-src="assets/svg/ic_place_white_48px.svg" aria-label="map">place</md-icon>
+                </div>
+            </md-toolbar>
+        </footer>
+    </md-content>
     </div>
-</header>
-<nav>
-    <div ng-class="{'back-drop': NavDrawer.isOpen}" ng-click="NavDrawer.reset()"></div>
-    <div class="navdrawer-container md-whiteframe-z2" ng-class="{'open': NavDrawer.isOpen}">
-        <div class="navdrawer-header"></div>
-        <ul>
-            <li material><a href="#/home">Home</a></li>
-            <li material><a href="#/about">About</a></li>
-            <li material><a href="#/finance">Finance</a></li>
-            <li material><a href="#/service">Services</a></li>
-            <li material><a href="#/project">Projects</a></li>
-            <li material><a href="#/gallery">Gallery</a></li>
-            <li material><a href="#/contact">Contacts</a></li>
-        </ul>
-    </div>
-</nav>
-
-<section ng-view></section>
-
-<footer>
-   <!-- <a href="#">Contact us</a>
-    <a href="#">Share</a>-->
-</footer>
-
-<!--<script src="common/jquery-2.1.4.js"></script>-->
 <script src="common/angular/angular.js"></script>
 <script src="common/angular/angular-route.js"></script>
-<!--<script src="common/material/mdRipple.js"></script>-->
+<script src="common/angular/angular-animate.js"></script>
+<script src="common/angular/angular-aria.js"></script>
+<script src="common/angular/angular-material.js"></script>
 <script src="app/app.js"></script>
 <script src="app/home/home.js"></script>
 <script src="app/about/about.js"></script>
@@ -54,53 +69,6 @@
 <script src="app/project/project.js"></script>
 <script src="app/gallery/gallery.js"></script>
 <script src="app/contact/contact.js"></script>
-<!--<script>
-    (function (window, $) {
-
-        $(function() {
-
-
-            $('.ripple').on('click', function (event) {
-                event.preventDefault();
-
-                var $div = $('<div/>'),
-                        btnOffset = $(this).offset(),
-                        xPos = event.pageX - btnOffset.left,
-                        yPos = event.pageY - btnOffset.top;
-
-
-
-                $div.addClass('ripple-effect');
-                var $ripple = $(".ripple-effect");
-
-                $ripple.css("height", $(this).height());
-                $ripple.css("width", $(this).height());
-                $div
-                        .css({
-                            top: yPos - ($ripple.height()/2),
-                            left: xPos - ($ripple.width()/2),
-                            background: $(this).data("ripple-color")
-                        })
-                        .appendTo($(this));
-/*
-                $div.css("height", $(this).height());
-                $div.css("width", $(this).height());*/
-                $div
-                        .css({
-                            top: yPos - ($div.height()/2),
-                            left: xPos - ($div.width()/2),
-                            background: $(this).data("ripple-color")
-                        })
-                        .appendTo($(this));
-
-                window.setTimeout(function(){
-                    $div.remove();
-                }, 2000);
-            });
-
-        });
-
-    })(window, jQuery);
-</script>-->
 </body>
 </html>
+
