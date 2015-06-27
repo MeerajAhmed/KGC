@@ -17,28 +17,27 @@
 <body ng-controller="KgcAppCtrl" layout="row">
 <section  ></section>
 <md-sidenav md-component-id="left-nav" class="md-sidenav-left md-whiteframe-z2" md-is-locked-open="$mdMedia('gt-sm')">
-    <md-toolbar layout="row" layout-align="start center" class="md-whiteframe-z1">
-       <h1 class="md-title">Menu</h1>
+    <md-toolbar class="md-whiteframe-z1">
+        <div class="md-toolbar-tools">
+            <h1 class="md-title no-margin">Menu</h1>
+        </div>
     </md-toolbar>
     <md-list class="menu-list">
         <md-list-item ng-repeat="menu in MenuList">
-            <div class="menu-text" ng-class="{ active : ($index == menuIndex)}">{{::menu.name}}</div>
-            <md-checkbox aria-label="{{::menu.name}}"  ng-click="navigateTo(menu.link,$index);" class="hide"></md-checkbox>
+            <div class="menu-text" ng-class="{ active : ($index == menuIndex)}" ng-bind="::menu.name"></div>
+            <md-checkbox aria-label="{{::menu.name}}" ng-click="navigateTo(menu.link,$index);"
+                         class="hide"></md-checkbox>
         </md-list-item>
-        <!--<md-list-item ng-click="navigateTo(menu.link,$index)" ng-repeat="menu in MenuList">
-            <md-icon md-svg-icon="assets/svg/ic_home_black_24px.svg"></md-icon>
-            <p> {{::menu.name }} </p>
-        </md-list-item>-->
     </md-list>
 </md-sidenav>
 <div layout="column" layout-fill>
     <md-content>
     <md-toolbar class="md-whiteframe-z4" >
         <div class="md-toolbar-tools">
-            <md-button class="md-icon-button" ng-click="NavDrawer.open()" aria-label="menu">
+            <md-button class="md-icon-button grow" ng-click="NavDrawer.open()" aria-label="menu">
                 <md-icon md-svg-icon="../assets/svg/ic_menu_white_24px.svg"></md-icon>
             </md-button>
-            <div class="md-title">Title</div>
+            <h1 class="md-title no-margin">KGC Holdings</h1>
             <span flex></span>
             <!--<img ng-src="assets/img/logo.png"  alt="logo">-->
         </div>
@@ -47,10 +46,16 @@
         <footer class="md-whiteframe-z1">
             <!--<h2 class="md-subhead">Get in touch</h2>-->
             <md-toolbar >
-                <div class="md-toolbar-tools">
-                    <md-icon md-svg-src="assets/svg/ic_call_white_24px.svg" aria-label="phone">call us</md-icon>
-                    <md-icon md-svg-src="assets/svg/ic_email_white_24px.svg" aria-label="email">mail us</md-icon>
-                    <md-icon md-svg-src="assets/svg/ic_place_white_24px.svg" aria-label="map">place</md-icon>
+                <div class="md-toolbar-tools" layout="row" layout-align="space-around center"                        >
+                    <a href="tel:+96638989887" class="grow">
+                        <md-icon md-svg-src="assets/svg/ic_call_white_24px.svg" aria-label="phone"></md-icon>
+                    </a>
+                    <a href="mailto:info@kgcholdings.com?subject=KGC holdings" class="grow">
+                        <md-icon md-svg-src="assets/svg/ic_email_white_24px.svg" aria-label="email"></md-icon>
+                    </a>
+                    <a href="#/contact" class="grow">
+                        <md-icon md-svg-src="assets/svg/ic_place_white_24px.svg" aria-label="contact address"></md-icon>
+                    </a>
                 </div>
             </md-toolbar>
         </footer>
