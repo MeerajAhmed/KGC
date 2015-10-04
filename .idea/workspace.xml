@@ -2,63 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b6693ef-1c93-43c9-8932-da25f6971857" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/._ic_menu_black_24dp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/._washedout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/._android" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/._ios" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/._web" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/._drawable-hdpi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/._drawable-mdpi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/._drawable-xhdpi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/._drawable-xxhdpi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/._drawable-xxxhdpi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-hdpi/._ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-hdpi/ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-mdpi/._ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-mdpi/ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-xhdpi/._ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-xhdpi/ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-xxhdpi/._ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-xxhdpi/ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-xxxhdpi/._ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/android/drawable-xxxhdpi/ic_menu_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/._ic_menu.imageset" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/._Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/._ic_menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/._ic_menu_2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/._ic_menu_3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/Contents.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/ic_menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/ic_menu_2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/ios/ic_menu.imageset/ic_menu_3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/web/._ic_menu_black_24dp_1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/web/._ic_menu_black_24dp_2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/web/ic_menu_black_24dp_1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24dp/web/ic_menu_black_24dp_2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/ic_menu_black_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/advertising.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/coldStorage.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/crawlerExcavator.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/pneumatic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/svg/ic_call_white_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/svg/ic_email_white_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/svg/ic_menu_white_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/svg/ic_place_white_24px.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/washedout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/plusOne/plusOne.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/about/about.tpl.html" afterPath="$PROJECT_DIR$/app/about/about.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/app.css" afterPath="$PROJECT_DIR$/app/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/contact/contact.tpl.html" afterPath="$PROJECT_DIR$/app/contact/contact.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.js" afterPath="$PROJECT_DIR$/app/home/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/home.tpl.html" afterPath="$PROJECT_DIR$/app/home/home.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/placeit_640_480.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/angular/angular-touch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/mdl/material.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/mdl/material.cyan-orange.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/mdl/material.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/js/underscore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="meerajahmed.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1443952068094" ignored="false" />
+    <file path="/Dummy.txt" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1443952239055" ignored="false" />
     <file path="/index.html" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1435406279759" ignored="false" />
     <file path="/app.css" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1433622504234" ignored="false" />
     <file path="/home.tpl.html" changelist="0b6693ef-1c93-43c9-8932-da25f6971857" time="1435494307399" ignored="false" />
@@ -94,7 +48,7 @@
       <file leaf-file-name="home.tpl.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/home/home.tpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="692" selection-end="692" vertical-scroll-proportion="0.221519">
+            <state line="21" column="57" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.47468355">
               <folding />
             </state>
           </provider>
@@ -199,6 +153,110 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mdl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -271,6 +329,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contact" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meerajahmed.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -335,16 +429,22 @@
       <created>1428789325318</created>
       <updated>1428789325318</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated project with material design lite">
+      <created>1443952251506</created>
+      <updated>1443952251506</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="58" y="32" width="1099" height="657" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23048328" sideWeight="0.9981413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23048328" sideWeight="0.9981413" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -401,7 +501,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated project with material design lite" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -415,6 +515,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="updated project with material design lite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -500,7 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/home/home.tpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="692" selection-end="692" vertical-scroll-proportion="0.221519">
+        <state line="21" column="57" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.47468355">
           <folding />
         </state>
       </provider>
