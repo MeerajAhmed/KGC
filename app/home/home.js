@@ -13,7 +13,8 @@
  * specified, as shown below.
  */
 angular.module( 'kgcApp.home', [
-  'ngRoute'
+  'ngRoute',
+  'ngTouch'
 ])
 
 /**
@@ -44,18 +45,18 @@ angular.module( 'kgcApp.home', [
  */
     .controller('HomeCtrl', ['$scope', function ($scope) {
         $scope.myInterval = 5000;
-        $scope.slides = [
+        $scope.sportImages = [
             {
-                image: 'assets/img/200.jpeg'
+                image: 'assets/img/placeholder900by350.png'
             },
             {
-                image: 'assets/img/food.jpeg'
+                image: 'assets/img/placeholder900by350.png'
             },
             {
-                image: 'assets/img/people.jpeg'
+                image: 'assets/img/placeholder900by350.png'
             },
             {
-                image: 'assets/img/sports.jpeg'
+                image: 'assets/img/placeholder900by350.png'
             }
         ];
     }]);
