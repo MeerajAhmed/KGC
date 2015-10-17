@@ -436,4 +436,24 @@ angular.module('kgcApp', [
                 });
             }
         };
+    }])
+    .directive('googleMaps', ['$window',function ($window) {
+        return {
+            link: function (scope, iElement, iAttrs) {
+                var mapOptions, map, myLatlng, marker;
+                if($window.google){
+                    myLatlng = new $window.google.maps.LatLng(26.2735863, 50.2079951);
+                    mapOptions = {
+                        zoom: 9,
+                        center: myLatlng
+                    }
+                    map = new $window.google.maps.Map(document.getElementById('kgcmap'), mapOptions);
+                    marker = new $window.google.maps.Marker({
+                        position: myLatlng,
+                        title:"KGC holdings"
+                    });
+                    marker.setMap(map);
+                }
+            }
+        }
     }]);

@@ -455,3 +455,8 @@ md-icon {
 .cursor-pointer {
     cursor: pointer;
 }
+
+#kgcmap {
+    min-width: 300px;
+    min-height: 400px;
+}
