@@ -519,67 +519,14 @@ md-icon {
     align-items: stretch;
     min-height: 260px;
 }
+.services.coffee-pic .mdl-card__media {
+    background-image: url('/assets/img/coffee.jpg');
+}
 
 .services.crane-pic .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crane.jpg');
-    background-position: center center;
-    background-size: cover;
+    background-image: url('/assets/img/crane_470_640.jpg');
 }
-.services.back-hoe .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/backhoe.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.dump-trucks .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/dump_trucks.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.bulldozer .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/bulldozer.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.excavator .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/excavator.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.trailers .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/trailers.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.bobcat .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/bobcat.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.crew-cabs .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crew_cab.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.generator .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/generator.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.compressor .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/compressor.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.welding .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/welding_machine.jpg');
-    background-position: center center;
-    background-size: cover;
-}
-.services.hydraulic .mdl-card__media {
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/hydraulic-pump.jpg');
-    background-position: center center;
-    background-size: cover;
-}
+
 
 .services .mdl-card__media {
     box-sizing: border-box;
@@ -607,67 +554,4 @@ md-icon {
 
 .services.mdl-card .mdl-card__supporting-text {
     flex-grow: 0;
-}
-
-.services h3 {
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 32px;
-    margin:0;
-}
-
-.mdl-layout__header-row .mdl-navigation li {
-    list-style-type: none;
-    position: relative;
-}
-.nav-large-screen .sub-menu {
-    position: absolute;
-    background-color: rgba(0,0,0,.15);
-    width: 250px
-}
-.nav-large-screen .sub-menu ul {
-    padding: 0 24px;
-}
-.nav-large-screen .sub-menu-container .sub-menu{
-    display: none;
-}
-.nav-large-screen .sub-menu-container:hover .sub-menu,
-.nav-large-screen .sub-menu-container:focus .sub-menu{
-    display: block;
-}
-.caret {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 4px dashed;
-    border-top: 4px solid\9;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-}
-
-.mdl-layout__drawer .mdl-navigation{
-    padding-left: 0;
-    padding-top: 0;
-}
-.mdl-layout__drawer .mdl-navigation li{
-    list-style-type: none;
-}
-
-.mdl-layout__drawer .sub-menu{
-    display: none;
-}
-
-.mdl-layout__drawer .sub-menu.is-visible{
-    display: block;
-}
-
-.mee {
-    background: linear-gradient(to bottom, transparent, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crane_470_640.jpg');
-    background-position: center center;
-   /* background-repeat: no-repeat;*/
-}
-.header-space {
-    height:32px;
 }

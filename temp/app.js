@@ -32,7 +32,7 @@ angular.module('kgcApp', [
         'kgcApp.home',
         'kgcApp.about',
         'kgcApp.finance',
-        'kgcApp.services',
+        'kgcApp.service',
         'kgcApp.project',
         'kgcApp.gallery',
         'kgcApp.contact'
@@ -85,18 +85,16 @@ angular.module('kgcApp', [
     controller('KgcAppCtrl', ['$scope', '$log', '$rootScope', '$location', '$timeout', function ($scope, $log, $rootScope, $location, $timeout) {
 
 //      ==================================== [START] Initialize variables for controller ===============================
-        $rootScope.NavDrawer = { isOpen: false, showSubMenu : false };
+        $rootScope.NavDrawer = { isOpen: false };
 //      ==================================== [END] Initialize variables for controller =================================
 
 //      ==================================== [START] All methods inside controller =====================================
         $rootScope.NavDrawer.toggle = function () {
             $rootScope.NavDrawer.isOpen = !$rootScope.NavDrawer.isOpen;
-            $rootScope.NavDrawer.showSubMenu = false;
         };
 
         $rootScope.NavDrawer.reset = function () {
             $rootScope.NavDrawer.isOpen = false;
-            $rootScope.NavDrawer.showSubMenu = false;
         };
 
         $scope.routeTo = function(path){
@@ -121,16 +119,6 @@ angular.module('kgcApp', [
           return true;
         };
     })
-    /*.directive("mdlLayout__obfuscator", ['$rootScope', function($rootScope){
-        return {
-            restrict: 'C',
-            link: function(scope, elem){
-                elem.on('click', function(){
-                    $rootScope.NavDrawer.reset();
-                });
-            }
-        }
-    }])*/
     .directive("carousel", ["$compile", "utilities", "$timeout", "$window", "$swipe", "$interval",
         function ($compile, utilities, $timeout, $window, $swipe, $interval) {
             var directiveDefObj;
