@@ -33,7 +33,7 @@ html, body {
     height: 64px;
     line-height: 64px;
 }
-.kgc .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+.kgc .mdl-layout__tab-bar .mdl-layout__tab.is-active:after {
     background-color: white;
     height: 4px;
 }
@@ -43,7 +43,14 @@ html, body {
 }
 .kgc .mdl-card {
     height: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .kgc .mdl-card > * {
@@ -51,10 +58,13 @@ html, body {
 }
 .kgc .mdl-card .mdl-card__supporting-text {
     margin: 40px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
     padding: 0;
     color: inherit;
-   /* width: calc(100% - 80px);*/
+    /* width: calc(100% - 80px);*/
 }
 .kgc.kgc .mdl-card__supporting-text h4 {
     margin-top: 0;
@@ -95,14 +105,24 @@ html, body {
     max-width: 620px;
 }
 .kgc section > header{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 .kgc section > .section__play-btn {
     min-height: 200px;
 }
 .kgc section > header > .material-icons {
+    font-size: 48px;
     font-size: 3rem;
 }
 .kgc section > button {
@@ -112,14 +132,33 @@ html, body {
     right: 8px;
 }
 .kgc section .section__circle {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
     flex-grow: 0;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
     flex-shrink: 1;
 }
 .kgc section .section__text {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
     flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
     flex-shrink: 0;
     padding-top: 8px;
 }
@@ -172,10 +211,18 @@ html, body {
     margin: 24px;
     padding: 0;
     padding-left: 8px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 .kgc .toc h4 {
+    font-size: 14px;
     font-size: 0.9rem;
     margin-top: 0;
 }
@@ -362,7 +409,7 @@ element.style {
     font-size: 26px;
     line-height: 50px;
     font-family: Helvetica,Arial,sans-serif;
-   /* margin: 10px 12px;*/
+    /* margin: 10px 12px;*/
     top: 0;
     left: 0;
     /*color: rgb(66,66,66);*/
@@ -385,12 +432,16 @@ element.style {
     font-weight: 400;
     display: -webkit-flex;
     display: -ms-flexbox;
+    display: -webkit-box;
     display: flex;
     -webkit-align-items: center;
     -ms-flex-align: center;
+    -webkit-box-align: center;
     align-items: center;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-direction: row;
     width: 100%;
     height: 64px;
@@ -418,16 +469,11 @@ md-icon {
 }
 .grow {
     -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
 
 .grow:hover {
-    -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -436,7 +482,7 @@ md-icon {
     .mdl-grid {
         padding: 0;
     }
-    }
+}
 /*@media (max-width: 839px) and (min-width: 480px) {*/
 @media (min-width: 480px) {
     .kgc .mdl-card .mdl-card__supporting-text {
@@ -463,7 +509,7 @@ md-icon {
 
 .slider-img-1, .slider-img-2, .slider-img-4 {
     height: 290px;
-   /* width: 310px;*/
+    /* width: 310px;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -521,61 +567,73 @@ md-icon {
 }
 
 .services.crane-pic .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crane.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crane.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.back-hoe .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/backhoe.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/backhoe.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.dump-trucks .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/dump_trucks.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/dump_trucks.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.bulldozer .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/bulldozer.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/bulldozer.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.excavator .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/excavator.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/excavator.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.trailers .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/trailers.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/trailers.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.bobcat .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/bobcat.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/bobcat.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.crew-cabs .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crew_cab.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crew_cab.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.generator .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/generator.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/generator.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.compressor .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/compressor.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/compressor.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.welding .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/welding_machine.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/welding_machine.jpg');
     background-position: center center;
     background-size: cover;
 }
 .services.hydraulic .mdl-card__media {
+    background: -webkit-linear-gradient(top, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/hydraulic-pump.jpg');
     background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/hydraulic-pump.jpg');
     background-position: center center;
     background-size: cover;
@@ -606,6 +664,9 @@ md-icon {
 }
 
 .services.mdl-card .mdl-card__supporting-text {
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
     flex-grow: 0;
 }
 
@@ -663,11 +724,6 @@ md-icon {
     display: block;
 }
 
-.mee {
-    background: linear-gradient(to bottom, transparent, transparent, transparent, rgba(0, 0, 0, 0.9)), url('/assets/img/crane_470_640.jpg');
-    background-position: center center;
-   /* background-repeat: no-repeat;*/
-}
 .header-space {
     height:32px;
 }
