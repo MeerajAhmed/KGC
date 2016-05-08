@@ -1,14 +1,57 @@
 
     <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
         <div class="mdl-card mdl-cell mdl-cell--12-col carousel-container ">
-            <carousel  show-indicators="true" resize-on-rotate="true" add-swipes="true" auto-rotate="true">
+           <!-- <carousel  show-indicators="true" resize-on-rotate="true" add-swipes="true" auto-rotate="true">
                 <ul class="slides">
                     <li><img src="/assets/img/placeit_640_480.png"></li>
                     <li><img src="/assets/img/placeit_640_480.png"></li>
                     <li><img src="/assets/img/placeit_640_480.png"></li>
                 </ul>
-            </carousel>
+            </carousel>-->
+            <!-- Carousel
+                ================================================== -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item leader active">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p>Leader in construction industry</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item equipment">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p>We fulfill all your equipments need</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item success">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p>Your next level of success starts here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-control bottom"></div>
+                <!--<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>-->
+            </div><!-- /.carousel -->
         </div>
+
     </section>
     <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
         <div class="mdl-card mdl-cell mdl-cell--12-col">
@@ -28,41 +71,39 @@
                 <h4 class="mdl-cell">Services</h4>
                 <div class="mdl-grid">
                     <div class="section__circle-container mdl-cell mdl-cell--4-col-phone mdl-cell--2-col-tablet mdl-cell--3-col-desktop">
-                        <div class="section__circle-container__circle mdl-color--primary"></div>
+                        <div class="section__circle-container__circle rental_equipment_th"></div>
                     </div>
                     <div class="mdl-cell mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--9-col-desktop">
                         <h5>Rental equipments</h5>
 
                             Small description about rental equipment service in less than 50 words here...
                             This sub-section should highlight the main key points or core solution of this service...
-                            <a href="#">read more</a>.
-
-
+                            <a href="#/rental" class="word-no-wrap">read more</a>.
                     </div>
                 </div>
                 <div class="mdl-grid">
                     <div class="section__circle-container mdl-cell mdl-cell--4-col-phone mdl-cell--2-col-tablet mdl-cell--3-col-desktop">
-                        <div class="section__circle-container__circle mdl-color--primary"></div>
+                        <div class="section__circle-container__circle commissioning_th"></div>
                     </div>
                     <div class="mdl-cell mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--9-col-desktop">
-                        <h5>Construction management</h5>
+                        <h5>Construction</h5>
 
                            Small description about construction management in less than 50 words here...
                            This sub-section should highlight the main key points or core solution of this service...
-                           <a href="#">read more</a>.
+                           <a href="#/construction" class="word-no-wrap">read more</a>.
 
                     </div>
                 </div>
                 <div class="mdl-grid">
                     <div class="section__circle-container mdl-cell mdl-cell--4-col-phone mdl-cell--2-col-tablet mdl-cell--3-col-desktop">
-                        <div class="section__circle-container__circle mdl-color--primary"></div>
+                        <div class="section__circle-container__circle sub-contracting_th"></div>
                     </div>
                     <div class="mdl-cell mdl-cell--4-col-phone mdl-cell--6-col-tablet mdl-cell--9-col-desktop">
                         <h5>Sub-contracting</h5>
 
                         Small description about sub-contracting in less than 50 words here...
                         This sub-section should highlight the main key points or core solution of this service...
-                        <a href="#">read more</a>.
+                        <a href="#/contract" class="word-no-wrap">read more</a>.
 
                     </div>
                 </div>
@@ -75,7 +116,7 @@
 
                         Small description about equipment & trading in less than 50 words here...
                         This sub-section should highlight the main key points or core solution of this service...
-                        <a href="#">read more</a>.
+                        <a href="#" class="word-no-wrap">read more</a>.
 
                     </div>
                 </div>

@@ -7,6 +7,4 @@ angular.module('kgcApp.contact', [
     }])
 
     .controller('ContactCtrl', [ '$scope', function ($scope) {
-
-
     }]);

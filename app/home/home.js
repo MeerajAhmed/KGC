@@ -44,20 +44,6 @@ angular.module( 'kgcApp.home', [
  * And of course we define a controller for our route.
  */
     .controller('HomeCtrl', ['$scope', function ($scope) {
-        $scope.myInterval = 5000;
-        $scope.sportImages = [
-            {
-                image: 'assets/img/placeholder900by350.png'
-            },
-            {
-                image: 'assets/img/placeholder900by350.png'
-            },
-            {
-                image: 'assets/img/placeholder900by350.png'
-            },
-            {
-                image: 'assets/img/placeholder900by350.png'
-            }
-        ];
+
     }]);
 

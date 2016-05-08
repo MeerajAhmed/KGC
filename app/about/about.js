@@ -7,6 +7,4 @@ angular.module('kgcApp.about', [
     }])
 
     .controller('AboutCtrl', [ '$scope', function ($scope) {
-
-
     }]);
